@@ -20,7 +20,21 @@
         <h1>Welcome to the New Page</h1>
         <p>This is the content of the new page.</p>
 
-       
+        <div class="calculator">
+            <h4>Calculator</h4>
+            <input type="number" id="num1" placeholder="First number">
+            <input type="number" id="num2" placeholder="Second number">gi
+
+            <div class="buttons">
+                <button onclick="addNumbers()">Add</button>
+                <button onclick="subtractNumbers()">Subtract</button>
+                <button onclick="multiplyNumbers()">Multiply</button>
+                <button onclick="divideNumbers()">Divide</button>
+            </div>
+
+            <input type="text" id="result" placeholder="Result" readonly>
+            <div class="error" id="error"></div>
+        </div>
     </section>
 
     <footer>
